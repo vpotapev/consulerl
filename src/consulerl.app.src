@@ -1,0 +1,21 @@
+{application, consulerl,
+ [{description, "Erlang Consul client"},
+  {vsn, "1.0.0"},
+  {modules, []},
+  {registered, [
+    consulerl_api_sup
+  ]},
+  {applications, [kernel,
+                  stdlib,
+                  asn1,
+                  crypto,
+                  public_key,
+                  ssl,
+                  inets,
+                  idna,
+                  hackney]},
+  {included_applications, []},
+  {env, []},
+  {mod, { consulerl_app, []}}
+ ]
+}.

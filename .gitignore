@@ -13,3 +13,4 @@ logs
 *.iml
 *.d
 .erlang.mk/
+_build/
